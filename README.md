@@ -75,7 +75,7 @@ For more information, please see:
 
 ## 📚 Citation
 
-If you find FUSAR-GPT useful in your research, please consider citing:
+If you find our work useful in your research, please consider citing the following:
 
 
 ```bibtex
