@@ -1,6 +1,6 @@
 # 🌍 FUSAR-GPT  
 ### A SAR-Centric Vision-Language Foundation Model  
-**Accepted by CVPR 2026**
+**Accepted by CVPR 2026** [![arXiv](https://img.shields.io/badge/arXiv-2602.19190-b31b1b.svg)](http://arxiv.org/abs/2602.19190)
 
 > FUSAR-GPT is a large-scale SAR-centric multimodal model designed to bridge the gap between Synthetic Aperture Radar (SAR) imagery and modern Vision-Language Models (VLMs).
 
@@ -60,9 +60,18 @@ FUSAR-GPT demonstrates:
 - Clear improvements over optical-pretrained VLM baselines on SAR understanding tasks  
 - Competitive detection performance without task-specific architectural modifications  
 - Strong generalization within the evaluated SAR benchmarks
-
-
 ---
+
+## 🔗 Connection to FUSAR-KLIP
+
+This work extends our prior research, **FUSAR-KLIP**[![arXiv](https://img.shields.io/badge/arXiv-2509.23927-b31b1b.svg)](https://arxiv.org/abs/2509.23927), which is a knowledge-guided self-supervised multimodal learning framework for SAR (Synthetic Aperture Radar) image interpretation. It introduces hierarchical cognitive reasoning chains to guide large language models in structured SAR image captioning and semantic understanding.
+
+
+
+For more information, please see:
+
+[![GitHub](https://img.shields.io/badge/GitHub-FUSAR--KLIP-1f77b4.svg?logo=github)](https://github.com/yangyifremad/FUSAR-KLIP)
+
 
 ## 📚 Citation
 
@@ -79,5 +88,15 @@ If you find FUSAR-GPT useful in your research, please consider citing:
   primaryClass={cs.CV},
   url={https://arxiv.org/abs/2602.19190}
 }
+@misc{yang2025fusarklipmultimodalfoundationmodels,
+      title={FUSAR-KLIP: Towards Multimodal Foundation Models for Remote Sensing}, 
+      author={Yi Yang and Xiaokun Zhang and Qingchen Fang and Jing Liu and Ziqi Ye and Rui Li and Li Liu and Haipeng Wang},
+      year={2025},
+      eprint={2509.23927},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2509.23927}, 
+}
+
 
 
