@@ -64,6 +64,20 @@ FUSAR-GPT demonstrates:
 
 ---
 
+## 📚 Citation
 
+If you find FUSAR-GPT useful in your research, please consider citing:
+
+
+```bibtex
+@misc{zhang2026fusargptspatiotemporalfeatureembedded,
+  title={FUSAR-GPT: A Spatiotemporal Feature-Embedded and Two-Stage Decoupled Visual Language Model for SAR Imagery},
+  author={Xiaokun Zhang and Yi Yang and Ziqi Ye and Baiyun and Xiaorong Guo and Qingchen Fang and Ruyi Zhang and Xinpeng Zhou and Haipeng Wang},
+  year={2026},
+  eprint={2602.19190},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2602.19190}
+}
 
 
