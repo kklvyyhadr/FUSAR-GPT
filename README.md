@@ -25,6 +25,9 @@ FUSAR-GPT is designed to address these challenges through a **SAR-centric traini
 ---
 
 ## 🏗️ Architecture Overview
+<p align="center">
+  <img src="figures/FUSAR-GPT-total.png" width="95%">
+</p>
 
 FUSAR-GPT consists of two training stages:
 
@@ -54,29 +57,13 @@ The framework integrates:
 
 FUSAR-GPT demonstrates:
 
-- Strong improvements over optical-pretrained VLM baselines on SAR tasks  
-- Competitive detection performance without task-specific architectural design  
-- Robust generalization across multiple SAR datasets  
+- Clear improvements over optical-pretrained VLM baselines on SAR understanding tasks  
+- Competitive detection performance without task-specific architectural modifications  
+- Strong generalization within the evaluated SAR benchmarks
 
-More quantitative results and benchmark scripts will be released soon.
-
----
-
-## 📦 Release Plan
-
-| Component | Status |
-|-----------|--------|
-| Training Code | 🔜 |
-| Inference Code | 🔜 |
-| Stage-1 Dataset | 🔜 |
-| Stage-2 Annotations | 🔜 |
-| Model Weights | 🔜 |
-| Benchmark Toolkit | 🔜 |
 
 ---
 
-## 🛠️ Installation (Coming Soon)
 
-```bash
-git clone https://github.com/yourname/FUSAR-GPT
-cd FUSAR-GPT
+
+
